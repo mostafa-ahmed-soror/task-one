@@ -1,0 +1,84 @@
+body{
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.menu .container .row .tmg-club,
+.menu .container .row .logo {
+    max-width: 100%; 
+  width: auto; 
+  height: auto; 
+  max-height: 50px; 
+  object-fit: contain;
+  padding-top: 10px;
+}
+.menu .container .row .tmg-club{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu .container .row .Explore{
+    display: flex;
+    color: orange;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+}
+.menu {
+    background-color: #002e4d;
+    height: 100vh;
+}
+.menu .container{
+    padding: 50px ;
+}
+.menu .container .view{
+    border: 5px white solid;
+    padding: 0;
+    width: 700px;
+}
+.list-group-item {
+    border: none; 
+  }
+  .menu .container ul li {
+      color: white;
+      background-color: #002e4d;
+  }
+.menu .container li.active a {
+    color: orange;
+    position: relative;
+    background-color: #002e4d;
+}
+.menu .container ul li.active::before{
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    width: 70px;
+    height: 9px;
+    background-color: orange;
+}
+
+.menu .container .list-group {
+    width: 300px; 
+    margin-bottom: 20px; 
+
+}
+
+
+
+
+
+
+
+/* end menu */
